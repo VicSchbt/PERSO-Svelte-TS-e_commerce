@@ -32,10 +32,13 @@ const navLinks = [
 
 <style lang="scss">
 nav {
-  width: 100%;
+  width: 30%;
+    height: 100%;
   ul {
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 </style>
